@@ -2,13 +2,8 @@
 <img src="https://i.imgur.com/CSMdbQl.jpg" height="50%" width="50%"/>
 </p>
 
-<h1>The Effect of Azure Regions and VPNs on IP Addressing</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
+<h1>Testing VPNs and Azure Virtual Machine Regions</h1>
+In this project, I observed the effects of Azure virtual machine regions and consumer VPNs (Proton VPN) on IP addressing, location, and web browsing. <br />
 
 <h2>Environments and Technologies Used</h2>
 
