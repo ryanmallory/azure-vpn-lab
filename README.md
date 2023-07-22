@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/CSMdbQl.jpg" height="50%" width="50%"/>
 </p>
 
-<h1>Testing VPNs and Azure Virtual Machine Regions</h1>
-In this project, I observed the effects of Azure virtual machine regions and consumer VPNs (Proton VPN) on IP addressing, location, and web browsing. <br />
+<h1>Experimenting with VPNs and Azure Virtual Machine Regions</h1>
+In this project, I observed the effects of Azure virtual machine region and consumer VPN usage (Proton VPN) on IP address, location, and web browsing. <br />
 
 <h2>Environments and Technologies Used</h2>
 
