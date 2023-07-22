@@ -3,7 +3,7 @@
 </p>
 
 <h1>Experimenting with VPNs and Azure Virtual Machine Regions</h1>
-In this project, I observed the effects of Azure virtual machine region and consumer VPN usage (Proton VPN) on IP address, location, and web browsing. <br />
+In this project, I observe the effects of Azure virtual machine region and consumer VPN usage (Proton VPN) on IP address, location, and web browsing. <br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -13,7 +13,7 @@ In this project, I observed the effects of Azure virtual machine region and cons
 
 <h2>Operating System Used </h2>
 
-- Windows 10 (22H2)
+- Windows 10 Pro
 
 <h2>High-Level Steps</h2>
 
