@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://i.imgur.com/CSMdbQl.jpg"/>
+<img src="https://i.imgur.com/CSMdbQl.jpg" height="50%" width="50%"/>
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
+<h1>The Effect of Azure Regions and VPNs on IP Addressing</h1>
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
