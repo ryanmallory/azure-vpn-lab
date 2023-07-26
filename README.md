@@ -88,6 +88,6 @@ Once again, I open www.whatismyipaddress.com. The location is listed as Tokyo, a
 <img src="https://i.imgur.com/VMH6WWs.jpg" height="75%" width="75%"/>
 </p>
 <p>
-Even though vm-vpn is still running on physical hardware in Norway, the machine behaves as if it shared the same location as the VPN server (a.k.a. Tokyo). As a result, searching www.Netflix.com takes you to their Japanese site. 
+Even though vm-vpn is still running on physical hardware in Norway, the machine behaves as if it shares the same location as the VPN server (a.k.a. Tokyo). As a result, searching www.Netflix.com takes you to their Japanese site. 
 </p>
 <br />
