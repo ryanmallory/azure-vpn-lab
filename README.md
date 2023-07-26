@@ -30,25 +30,64 @@ In this project, I observe the effects of Azure virtual machine region and consu
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JLGkWqx.jpg" height="75%" width="75%"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I began by opening www.whatismyipaddress.com and noting the IP address and city associated with my local machine. As you can see, the IP address is 97.113.18.186 and the city is Tukwila, WA.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DVwvH6e.jpg" height="75%" width="75%"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, I created a virtual machine in Azure (named "vpn-vm") and set its location to Norway East. This means that the server which hosts the virtual machine is physically located in a Microsoft datacenter in Norway. From inside the Azure portal, I copied vpn-vm's public IP address and connected to it via Remote Desktop Connection.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/fyz3jzU.jpg" height="75%" width="75%"/>
+</p>
+<p>
+Once I logged in to vm-vpn, I opened Microsoft Edge and once again went to www.whatismyipaddress.com. As you can see, the IP address is different than my local machine, and the location is listed as Oslo, Norway. To reiterate, this is because vpn-vm is running on physical hardware located in a Microsoft datacenter in Norway!
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/QLsH0tF.jpg" height="75%" width="75%"/>
+</p>
+<p>
+Because the virtual machine is located in Norway, websites display Norwegian text and may have graphical/functional differences. Here's what the Norwegian version of Disney Plus looks like.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/dz6iqLz.jpg" height="75%" width="75%"/>
+</p>
+<p>
+From within vpn-vm, I downloaded and installed a free consumer VPN (virtual private network) client called Proton VPN. A VPN client allows you to connect to a network in a different location via a secure, encrypted tunnel. In an enterprise environment, you could use a VPN client to safely access your office's network from home or another remote location over the internet.
+<br />
+
+<p>
+<img src="https://i.imgur.com/5XsEqNi.jpg" height="75%" width="75%"/>
+</p>
+<p>
+After the installation was complete, I opened Proton VPN and connected to a VPN server in Japan. As a result, my computer will behave as if it were in that geographic location.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Iwi5Zdv.jpg" height="75%" width="75%"/>
+</p>
+<p>
+Once again, I open www.whatismyipaddress.com. The location is listed as Tokyo, and the IP address has changed again.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/VMH6WWs.jpg" height="75%" width="75%"/>
+</p>
+<p>
+Even though vm-vpn is still running on physical hardware in Norway, the machine behaves as if it shared the same location as the VPN server (a.k.a. Tokyo). As a result, searching www.Netflix.com takes you to their Japanese site. 
 </p>
 <br />
